@@ -1,0 +1,8 @@
+{
+  "name": "@morozov-sdk/storybook",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "peerDependencies": {
+    "@types/react": "^18.0.31"
+  }
+}
