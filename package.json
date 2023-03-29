@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:all": "nx run-many --target=build"
+    "build:all": "nx run-many --target=build",
+    "publish:all": "nx run-many --target=publish --ver=1.0.0"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +24,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@nrwl/devkit": "^15.8.9",
     "@nrwl/eslint-plugin-nx": "15.8.9",
     "@nrwl/jest": "15.8.9",
     "@nrwl/js": "15.8.9",
@@ -39,6 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "@vitest/ui": "^0.25.8",
+    "chalk": "^5.2.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "jest": "^29.4.1",

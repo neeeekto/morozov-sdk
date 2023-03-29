@@ -17,7 +17,7 @@
     "publish": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "node tools/scripts/publish.mjs http {args.ver} {args.tag}"
+        "command": "node tools/scripts/publish.js @morozov-sdk/http {args.ver} {args.tag}"
       },
       "dependsOn": ["build"]
     },
